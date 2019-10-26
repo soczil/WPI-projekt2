@@ -123,7 +123,8 @@ void usun_puste_kolumny(char **plansza, int wiersze, int kolumny) {
 }
 
 /* Funkcja usuwa cala grupe klockow o podanym znaku, zaczynajaca sie w podanym 
-miejscu. Jesli sasiadujace pole znajduje sie w zakresie planszy oraz jest na nim okreslony klocek, to funkcja wywoluje sie rekurencyjnie z wartosciami z tego pola. */
+miejscu. Jesli sasiadujace pole znajduje sie w zakresie planszy oraz jest na nim
+okreslony klocek, to funkcja wywoluje sie rekurencyjnie z wartosciami z tego pola. */
 void usun_grupe(char **plansza, int i, int j, int wiersze, int kolumny, int znak) {
     plansza[j][i] = ' ';
     if ((j + 1 < kolumny) && (plansza[j + 1][i] == znak)) {
