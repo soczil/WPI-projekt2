@@ -25,14 +25,14 @@ Można zauważyć, że każdy widoczny znak w tekście jednoznacznie określa gr
 
 Program wykonuje następujący algorytm:
 
-czyta i porządkuje dane,
-wymazuje jedną grupę znaków widocznych, o ile taka grupa istnieje,
-porządkuje i pisze wynik.
+- czyta i porządkuje dane
+- wymazuje jedną grupę znaków widocznych, o ile taka grupa istnieje
+- porządkuje i pisze wynik
 
 Porządkując tekst, program:
 
-dopóki jest choć jeden widoczny znak, bezpośrednio poniżej którego, w tej samej kolumnie, jest pole puste, przesuwa ten znak o jeden wiersz w dół,
-usuwa wszystkie kolumny, w których nie ma widocznego znaku.
+- dopóki jest choć jeden widoczny znak, bezpośrednio poniżej którego, w tej samej kolumnie, jest pole puste, przesuwa ten znak o jeden wiersz w dół,
+- usuwa wszystkie kolumny, w których nie ma widocznego znaku.
 
 Wymazanie grupy widocznych znaków polega na zastąpieniu ich w tekście spacjami.
 
