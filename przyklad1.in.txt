@@ -1,0 +1,7 @@
+
+ a     d
+ ba
+ cba
+ ccba
+ ccccc
+         e
